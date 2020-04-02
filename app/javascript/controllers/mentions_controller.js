@@ -2,6 +2,8 @@ import { Controller } from "stimulus"
 import Tribute from "tributejs"
 import Trix from "trix"
 
+require("tributejs/tribute.css")
+
 export default class extends Controller {
   static targets = [ "field" ]
 
